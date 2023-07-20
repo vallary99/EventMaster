@@ -109,13 +109,13 @@ p {
 
 @media (max-width: 601px) {
   img {
-    width: 80px;
-    height: 80px;
+    width: 150px;
+    height: 150px;
+    margin-top: -10px;
   }
 
   .contact {
-    font-size: 10px;
-    padding-top: 10px;
+    font-size: 12px;
   }
 
   .anchors,
@@ -125,6 +125,10 @@ p {
 
   .left {
     display: none;
+  }
+
+  .email {
+    margin-top: -50px;
   }
 }
 </style>
