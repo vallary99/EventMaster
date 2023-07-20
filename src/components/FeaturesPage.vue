@@ -3,7 +3,7 @@
     <div class="title">APP<span>FEATURES</span></div>
 
     <div class="row mx-auto">
-      <div class="col-3 card">
+      <div class="col-lg-3 col-md-3 col-sm-12 card">
         <div class="feature">REGISTRATION & PROFILES</div>
         <img src="../assets/profile.png" alt="Toggle Image" />
         <div>
@@ -13,7 +13,7 @@
         </div>
       </div>
 
-      <div class="col-3 card">
+      <div class="col-lg-3 col-md-3 col-sm-12 card">
         <div class="feature">EVENT MANAGEMENT</div>
         <img src="../assets/create.png" alt="Toggle Image" />
         <div>
@@ -23,8 +23,8 @@
         </div>
       </div>
 
-      <div class="col-3 card">
-        <div class="feature">EVENT DISCOVERY & SEARCH</div>
+      <div class="col-lg-3 col-md-3 col-sm-12 card">
+        <div class="feature">EVENT DISCOVERY</div>
         <img src="../assets/search.png" alt="Toggle Image" />
         <div>
           Provide users with a search functionality that enables them to
@@ -36,8 +36,8 @@
     </div>
 
     <div class="row mx-auto">
-      <div class="col-3 card">
-        <div class="feature">EVENT PROMOTION & SHARING</div>
+      <div class="col-lg-3 col-md-3 col-sm-12 card">
+        <div class="feature">EVENT PROMOTION</div>
         <img src="../assets/share.png" alt="Toggle Image" />
         <div>
           Facilitates event organizers to promote their events using the app,
@@ -46,8 +46,8 @@
         </div>
       </div>
 
-      <div class="col-3 card">
-        <div class="feature">NOTIFICATIONS & REMINDERS</div>
+      <div class="col-lg-3 col-md-3 col-sm-12 card">
+        <div class="feature">NOTIFICATIONS</div>
         <img src="../assets/notification.png" alt="Toggle Image" />
         <div>
           Delivering notifications to users regarding upcoming events that align
@@ -56,7 +56,7 @@
         </div>
       </div>
 
-      <div class="col-3 card">
+      <div class="col-lg-3 col-md-3 col-sm-12 card">
         <div class="feature">MAPS & NAVIGATION</div>
         <img src="../assets/navigation.png" alt="Toggle Image" />
         <div>
@@ -140,11 +140,20 @@ img {
 /* Styles for screens smaller than 600px */
 @media (max-width: 600px) {
   .features {
-    margin-top: -40%;
+    /* margin-top: -40%; */
   }
 
   .title {
     font-size: 20px;
+  }
+
+  .card {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  img {
+    width: 80px;
   }
 }
 
