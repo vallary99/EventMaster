@@ -25,7 +25,7 @@
           ways to make it easier for users to find and attend events.
         </div>
       </div>
-      <div class="col-lg-6 team-image"></div>
+      <div class="col-lg-6 col-md-6 col-sm-12 team-image"></div>
     </div>
   </div>
 </template>
@@ -112,6 +112,10 @@ span {
     padding: 10px;
   }
   .team-image {
+    display: none;
+  }
+
+  .team .title {
     display: none;
   }
 }
