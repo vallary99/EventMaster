@@ -36,7 +36,6 @@
       <div class="anchor"><router-link to="/faqs">FAQs</router-link></div>
     </div>
 
-
     <div class="col-lg-3 col-md-3 col-sm-12 logo">
       <img alt="Vue logo" src="../assets/logo.png" />
 
@@ -119,7 +118,8 @@ p {
     padding-top: 10px;
   }
 
-  .anchors, .features {
+  .anchors,
+  .features {
     display: none;
   }
 
