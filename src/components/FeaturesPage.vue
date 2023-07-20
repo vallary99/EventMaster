@@ -2,13 +2,9 @@
   <div class="features" id="features">
     <div class="title">APP<span>FEATURES</span></div>
 
-    <div class="row">
-      <div class="col-4 card">
+    <div class="row mx-auto">
+      <div class="col-3 card">
         <div class="feature">REGISTRATION & PROFILES</div>
-        <!-- <img @click="toggleElement" src="../assets/profile.png" alt="Toggle Image" />
-        <div v-if="showElement">
-          Enable users to sign up and generate profiles containing pertinent details, offering the capability to include their interests, location, and personal preferences.
-        </div> -->
         <img src="../assets/profile.png" alt="Toggle Image" />
         <div>
           Enable users to sign up and generate profiles containing pertinent
@@ -17,18 +13,17 @@
         </div>
       </div>
 
-      <div class="col-4 card">
-        <div class="feature">EVENT CREATION & MANAGEMENT</div>
+      <div class="col-3 card">
+        <div class="feature">EVENT MANAGEMENT</div>
         <img src="../assets/create.png" alt="Toggle Image" />
         <div>
-          Allows event organizers to create and oversee their events, granting
-          them the ability to define event specifics like title, description,
-          location, date, time, and duration. Offer features to include
-          event-related media such as images and videos.
+          Grants event organizers the ability to define event specifics like
+          title, description, location, date, time, and duration. Offer features
+          to include event-related media such as images and videos.
         </div>
       </div>
 
-      <div class="col-4 card">
+      <div class="col-3 card">
         <div class="feature">EVENT DISCOVERY & SEARCH</div>
         <img src="../assets/search.png" alt="Toggle Image" />
         <div>
@@ -40,13 +35,9 @@
       </div>
     </div>
 
-    <div class="row cards">
-      <div class="col-4 card">
+    <div class="row mx-auto">
+      <div class="col-3 card">
         <div class="feature">EVENT PROMOTION & SHARING</div>
-        <!-- <img @click="toggleElement" src="../assets/profile.png" alt="Toggle Image" />
-        <div v-if="showElement">
-          Enable users to sign up and generate profiles containing pertinent details, offering the capability to include their interests, location, and personal preferences.
-        </div> -->
         <img src="../assets/share.png" alt="Toggle Image" />
         <div>
           Facilitates event organizers to promote their events using the app,
@@ -55,7 +46,7 @@
         </div>
       </div>
 
-      <div class="col-4 card">
+      <div class="col-3 card">
         <div class="feature">NOTIFICATIONS & REMINDERS</div>
         <img src="../assets/notification.png" alt="Toggle Image" />
         <div>
@@ -65,7 +56,7 @@
         </div>
       </div>
 
-      <div class="col-4 card">
+      <div class="col-3 card">
         <div class="feature">MAPS & NAVIGATION</div>
         <img src="../assets/navigation.png" alt="Toggle Image" />
         <div>
@@ -106,7 +97,6 @@ export default {
 <style scoped>
 .features {
   text-align: center;
-  padding-left: 30px;
 }
 .title {
   font-size: 50px;
@@ -124,9 +114,10 @@ span {
 }
 
 img {
-  width: 120px;
+  width: 100px;
   margin-left: 30%;
   background: none;
+  padding: 10px;
 }
 
 .feature {
@@ -140,14 +131,10 @@ img {
 
 .card {
   font-style: italic;
-  width: 400px;
   margin-left: 50px;
   padding: 20px;
   box-shadow: 2px 2px 4px gray;
-}
-
-.cards {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 /* Styles for screens smaller than 600px */
