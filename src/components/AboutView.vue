@@ -60,6 +60,7 @@ span {
   background-image: url("@/assets/high-angle-smiley-colleagues-working-together.jpg");
   background-size: cover;
   font-weight: 600;
+  width: 100%;
 }
 
 .team {
