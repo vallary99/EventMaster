@@ -89,7 +89,7 @@ button {
 
   nav {
     margin-top: -20%;
-    margin-left: 15%;
+    margin-left: 20%;
   }
 
   nav a {
