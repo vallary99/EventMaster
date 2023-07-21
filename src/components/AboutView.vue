@@ -1,6 +1,6 @@
 <template>
   <div class="about" id="about">
-    <div class="misson">
+    <div class="mission">
       <div class="card">
         <div class="title"><span>OUR MISSION</span></div>
 
@@ -60,7 +60,7 @@ span {
   background-image: url("@/assets/high-angle-smiley-colleagues-working-together.jpg");
   background-size: cover;
   font-weight: 600;
-  /* width: 100%; */
+  width: 100%;
 }
 
 .team {
@@ -119,10 +119,14 @@ span {
   .team .title {
     display: none;
   }
+
+  .mission {
+    margin-top: -40%;
+  }
 }
 
 /* Styles for screens larger than 600px */
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 601px) and (max-width: 900px) {
   .team {
     background-image: url("@/assets/high-angle-smiley-colleagues-working-together.jpg");
     background-size: cover;
