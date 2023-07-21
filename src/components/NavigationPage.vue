@@ -106,21 +106,19 @@ button {
 @media (min-width: 601px) and (max-width: 900px) {
   nav a {
     padding-right: 50px;
-  }
-
-  .logo {
-    margin-left: 5px;
+    font-size: 12px;
   }
 
   button {
     width: 130px;
-    font-size: 12px;
-    margin-left: 20px;
+    font-size: 13px;
     margin-top: 20%;
+    margin-left: 40px;
   }
 
-  nav a {
-    font-size: 12px;
+  nav {
+    margin-left: 10px;
+    margin-top: 15px;
   }
 }
 </style>

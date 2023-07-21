@@ -96,7 +96,7 @@ p {
   text-align: center;
 }
 
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 601px) and (max-width: 900px) {
   img {
     width: 80px;
     height: 80px;
@@ -107,7 +107,7 @@ p {
   }
 }
 
-@media (max-width: 601px) {
+@media (max-width: 600px) {
   img {
     width: 150px;
     height: 150px;

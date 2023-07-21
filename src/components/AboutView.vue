@@ -121,7 +121,7 @@ span {
   }
 
   .mission {
-    margin-top: -40%;
+    margin-top: -35%;
   }
 }
 

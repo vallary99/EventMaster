@@ -162,5 +162,9 @@ img {
   .title {
     font-size: 40px;
   }
+
+  .feature {
+    font-size: 18px;
+  }
 }
 </style>
