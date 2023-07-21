@@ -83,7 +83,7 @@ button {
   }
 
   img {
-    width: 50px;
+    width: 60px;
     margin-top: 5px;
   }
 
@@ -93,7 +93,7 @@ button {
   }
 
   nav a {
-    padding-right: 10px;
+    padding-right: 15px;
     font-size: 8px;
   }
 
