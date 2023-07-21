@@ -15,7 +15,7 @@
         </nav>
       </div>
 
-      <div class="col-lg-2 col-md-2">
+      <div class="col-lg-2 col-md-2 col-sm-2">
         <a href="https://event-master-dashboard.vercel.app/" target="_blank">
           <button>SignUp/Login</button>
         </a>
@@ -84,7 +84,7 @@ button {
 
   img {
     width: 70px;
-    margin-top: 5px;
+    margin-top: 2px;
   }
 
   nav {
@@ -103,7 +103,7 @@ button {
 }
 
 /* Styles for screens larger than 600px */
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 601px) and (max-width: 900px) {
   nav a {
     padding-right: 50px;
   }

@@ -139,7 +139,7 @@ img {
 }
 
 /* Styles for screens smaller than 600px */
-@media (min-width: 600px) and (max-width: 900px) {
+@media (min-width: 601px) and (max-width: 900px) {
   .text-container {
     font-size: 15px;
     margin-top: 45%;
@@ -151,7 +151,18 @@ img {
 }
 
 /* Styles for screens larger than 600px */
-@media (min-width: 601px) {
-  /* CSS rules for larger screens */
+@media (max-width: 600px) {
+  .text {
+    font-size: 15px;
+  }
+
+  .carousel {
+    margin-top: -35%;
+  }
+
+  .text-container {
+    margin-top: 60%;
+    margin-left: 12.5%;
+  }
 }
 </style>
