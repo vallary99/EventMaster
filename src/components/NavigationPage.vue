@@ -16,7 +16,9 @@
       </div>
 
       <div class="col-lg-2">
-        <button>SignUp/Login</button>
+        <a href="https://event-master-dashboard.vercel.app/">
+          <button>SignUp/Login</button>
+        </a>
       </div>
     </div>
   </div>
