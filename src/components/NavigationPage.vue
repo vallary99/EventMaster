@@ -5,7 +5,7 @@
         <a href="/"><img alt="Vue logo" src="../assets/Logo.png" /></a>
       </div>
 
-      <div class="col-lg-7 col-md-10 col-sm-10">
+      <div class="col-lg-7 col-md-7 col-sm-10">
         <nav>
           <a href="#home" class="custom-link">HOME</a>
           <a href="#about" class="custom-link">ABOUT</a>
@@ -15,7 +15,7 @@
         </nav>
       </div>
 
-      <div class="col-lg-2">
+      <div class="col-lg-2 col-md-2">
         <a href="https://event-master-dashboard.vercel.app/" target="_blank">
           <button>SignUp/Login</button>
         </a>
@@ -39,7 +39,8 @@ export default {
 }
 
 img {
-  width: 100px;
+  width: 120px;
+  margin-top: -10%;
 }
 
 nav {
@@ -50,7 +51,7 @@ nav a {
   text-decoration: none;
   color: black;
   font-weight: bold;
-  padding-right: 120px;
+  padding-right: 150px;
   font-size: 15px;
 }
 
@@ -70,12 +71,9 @@ button {
   padding: 10px;
   font-weight: 600;
   border-radius: 5px;
-  margin-top: 10px;
+  margin-top: 10%;
   outline: none;
-}
-
-.logo {
-  margin-left: 5%;
+  margin-left: 80%;
 }
 
 /* Styles for screens smaller than 600px */
@@ -86,15 +84,21 @@ button {
 
   img {
     width: 50px;
+    margin-top: 5px;
   }
 
-  button {
-    display: none;
+  nav {
+    margin-top: -20%;
+    margin-left: 15%;
   }
 
   nav a {
     padding-right: 10px;
-    font-size: 10px;
+    font-size: 8px;
+  }
+
+  button {
+    display: none;
   }
 }
 
@@ -104,8 +108,19 @@ button {
     padding-right: 50px;
   }
 
+  .logo {
+    margin-left: 5px;
+  }
+
   button {
-    display: none;
+    width: 130px;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 20%;
+  }
+
+  nav a {
+    font-size: 12px;
   }
 }
 </style>
