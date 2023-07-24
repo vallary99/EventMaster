@@ -25,7 +25,7 @@
           ways to make it easier for users to find and attend events.
         </div>
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-12 team-image"></div>
+      <div class="team-image col-lg-6 col-md-6 col-sm-12"></div>
     </div>
   </div>
 </template>
@@ -60,11 +60,11 @@ span {
   background-image: url("@/assets/high-angle-smiley-colleagues-working-together.jpg");
   background-size: cover;
   font-weight: 600;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .team {
-  background-color: black;
+  /* background-color: black; */
   color: white;
   height: 550px;
   width: 99.5%;
@@ -73,6 +73,7 @@ span {
 }
 
 .team-content {
+  background-color: black;
   text-align: center;
   font-size: 25px;
   padding: 100px;
@@ -145,6 +146,8 @@ span {
 
   .team-content {
     opacity: 0.5;
+    background-color: none;
+    width: 100%;
   }
 
   .card {

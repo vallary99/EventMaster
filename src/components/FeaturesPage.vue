@@ -2,7 +2,7 @@
   <div class="features" id="features">
     <div class="title">APP<span>FEATURES</span></div>
 
-    <div class="row mx-auto">
+    <div class="row cards">
       <div class="col-lg-3 col-md-3 col-sm-12 card">
         <div class="feature">REGISTRATION & PROFILES</div>
         <img src="../assets/profile.png" alt="Toggle Image" />
@@ -35,7 +35,7 @@
       </div>
     </div>
 
-    <div class="row mx-auto">
+    <div class="row cards">
       <div class="col-lg-3 col-md-3 col-sm-12 card">
         <div class="feature">EVENT PROMOTION</div>
         <img src="../assets/share.png" alt="Toggle Image" />
@@ -137,6 +137,10 @@ img {
   margin-top: 20px;
 }
 
+.cards {
+  margin-left: 7.5%;
+}
+
 /* Styles for screens smaller than 600px */
 @media (max-width: 600px) {
   .features {
@@ -164,7 +168,17 @@ img {
   }
 
   .feature {
-    font-size: 18px;
+    font-size: 17px;
+  }
+
+  .card {
+    width: 13rem;
+    margin-left: 15px;
+    font-size: 12px;
+  }
+
+  .cards {
+    margin-left: 5%;
   }
 }
 </style>
